@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="d-flex" id="wrapper">
+      <!-- Sidebar-->
+      <div class="border-end bg-white" id="sidebar-wrapper">
+        
+        <div class="list-group list-group-flush">
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#avatar"
+            >Avatar</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#alert"
+            >Alert</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#badge"
+            >Badge</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#button"
+            >Button</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#card"
+            >Card</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#image"
+            >Image</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#input"
+            >Input</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#text"
+            >Text Utilities</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#lists"
+            >Lists</a
+          >
+          <a
+            class="list-group-item list-group-item-action list-group-item-light p-3"
+            href="#navigation"
+            >Navigation</a
+          >
+        </div>
+      </div>
+      <!-- Page content wrapper-->
+      <div id="page-content-wrapper">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+          <div class="container">
+              <a href="./index.html" class="navbar-brand"><i class="bi bi-joystick"></i> DRUI</a>
+  
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navmenu">
+  
+                  <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                          <a href="#documentation" class="nav-link">Documentation</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#questions" class="nav-link"><i class="bi bi-github"></i></a>
+                      </li>
+                      
+                  </ul>
+              </div>
+          </div>
+      </nav>
+        <!-- Top navigation-->
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light border-bottom"
+        >
+          <div class="container-fluid">
+            <button class="btn btn-primary" id="sidebarToggle">
+              <i class="bi bi-menu-button-wide-fill"></i>
+            </button>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        
+          </div>
+        </nav>
+        <!-- Page content-->
+        <div class="container-fluid">
+          <div id="avatar">
+          <h1 class="mt-4">Avatar</h1>
+          <p>
+            The starting state of the menu will appear collapsed on smaller
+            screens, and will appear non-collapsed on larger screens. When
+            toggled using the button below, the menu will change.
+          </p>
+          <div class="avatar">
+            <div class="image">
+              <img src="./img/avatar.jpg" alt="sunset" class="avatar-image" />
+              <iframe
+                src="https://www.thiscodeworks.com/embed/61ff0b43bcdcda0015005963"
+                style="width: 100%; height: 151px"
+                frameborder="0"
+              ></iframe>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <h1 class="mt-4">Alert</h1>
+          <p>
+            Alert messages can be used to notify the user about something
+            special: danger, success, information or warning.
+          </p>
+          <div class="alert">
+            <span
+              class="closebtn"
+              onclick="this.parentElement.style.display='none';"
+              >&times;</span
+            >
+            This is an alert box.
+          </div>
+          <iframe
+            src="https://www.thiscodeworks.com/embed/61ff0daabcdcda0015005964"
+            style="width: 100%; height: 138px"
+            frameborder="0"
+          ></iframe>
+        </div>
+        <div class="container-fluid">
+          <div id="badge">
+          <h1 class="mt-4">Badges</h1>
+          <p>
+            Badges are numerical indicators of how many items are associated with a link:
+          </p>
+          <p>News <span class="w3-badge w3-green">6</span></p>
+          <p>Comments <span class="w3-badge w3-red">8</span></p>
+          <iframe src="https://www.thiscodeworks.com/embed/61ff0fe5bcdcda0015005965" style="width: 100%; height: 190px;" frameborder="0"></iframe></div>
+        </div>
+        <div class="container-fluid">
+          <h1 class="mt-4">Button</h1>
+          <p>
+            The starting state of the menu will appear collapsed on smaller
+            screens, and will appear non-collapsed on larger screens. When
+            toggled using the button below, the menu will change.
+          </p>
+          <p>
+            Make sure to keep all page content within the
+            <code>#page-content-wrapper</code>
+            . The top navbar is optional, and just for demonstration. Just
+            create an element with the
+            <code>#sidebarToggle</code>
+            ID which will toggle the menu when clicked.
+          </p>
+        </div>
+        <div class="container-fluid">
+          <h1 class="mt-4">Card</h1>
+          <p>
+            The starting state of the menu will appear collapsed on smaller
+            screens, and will appear non-collapsed on larger screens. When
+            toggled using the button below, the menu will change.
+          </p>
+          <p>
+            Make sure to keep all page content within the
+            <code>#page-content-wrapper</code>
+            . The top navbar is optional, and just for demonstration. Just
+            create an element with the
+            <code>#sidebarToggle</code>
+            ID which will toggle the menu when clicked.
+          </p>
+        </div>
+        <div class="container-fluid">
+          <h1 class="mt-4">Image</h1>
+          <p>
+            The starting state of the menu will appear collapsed on smaller
+            screens, and will appear non-collapsed on larger screens. When
+            toggled using the button below, the menu will change.
+          </p>
+          <p>
+            Make sure to keep all page content within the
+            <code>#page-content-wrapper</code>
+            . The top navbar is optional, and just for demonstration. Just
+            create an element with the
+            <code>#sidebarToggle</code>
+            ID which will toggle the menu when clicked.
+          </p>
+        </div>
+        <div class="container-fluid">
+          <h1 class="mt-4">Input</h1>
+          <p>
+            The starting state of the menu will appear collapsed on smaller
+            screens, and will appear non-collapsed on larger screens. When
+            toggled using the button below, the menu will change.
+          </p>
+          <p>
+            Make sure to keep all page content within the
+            <code>#page-content-wrapper</code>
+            . The top navbar is optional, and just for demonstration. Just
+            create an element with the
+            <code>#sidebarToggle</code>
+            ID which will toggle the menu when clicked.
+          </p>
+        </div>
+        <div class="container-fluid">
+          <h1 class="mt-4">Text Utilities</h1>
+          <p>
+            The starting state of the menu will appear collapsed on smaller
+            screens, and will appear non-collapsed on larger screens. When
+            toggled using the button below, the menu will change.
+          </p>
+          <p>
+            Make sure to keep all page content within the
+            <code>#page-content-wrapper</code>
+            . The top navbar is optional, and just for demonstration. Just
+            create an element with the
+            <code>#sidebarToggle</code>
+            ID which will toggle the menu when clicked.
+          </p>
+        </div>
+        <div class="container-fluid">
+          <h1 class="mt-4">List</h1>
+          <p>
+            The starting state of the menu will appear collapsed on smaller
+            screens, and will appear non-collapsed on larger screens. When
+            toggled using the button below, the menu will change.
+          </p>
+          <p>
+            Make sure to keep all page content within the
+            <code>#page-content-wrapper</code>
+            . The top navbar is optional, and just for demonstration. Just
+            create an element with the
+            <code>#sidebarToggle</code>
+            ID which will toggle the menu when clicked.
+          </p>
+        </div>
+        <div class="container-fluid">
+          <h1 class="mt-4">Navigation</h1>
+          <p>
+            The starting state of the menu will appear collapsed on smaller
+            screens, and will appear non-collapsed on larger screens. When
+            toggled using the button below, the menu will change.
+          </p>
+          <p>
+            Make sure to keep all page content within the
+            <code>#page-content-wrapper</code>
+            . The top navbar is optional, and just for demonstration. Just
+            create an element with the
+            <code>#sidebarToggle</code>
+            ID which will toggle the menu when clicked.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; DRUI Component Library</p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
